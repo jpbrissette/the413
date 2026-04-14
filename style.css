@@ -59,13 +59,10 @@ header::before {
   pointer-events: none;
 }
 
-.site-title {
-  font-size: clamp(2.4rem, 7vw, 4.5rem);
-  letter-spacing: 0.18em;
-  font-weight: normal;
-  color: var(--amber);
-  text-transform: uppercase;
-  line-height: 1.1;
+.site-logo {
+  display: block;
+  width: clamp(220px, 55vw, 360px);
+  margin: 0 auto;
   position: relative;
 }
 
