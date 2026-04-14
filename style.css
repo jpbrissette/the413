@@ -64,9 +64,12 @@ header::before {
 
 .site-logo {
   display: block;
-  width: clamp(220px, 55vw, 360px);
+  width: clamp(120px, 28vw, 200px);
+  height: auto;
   margin: 0 auto;
   position: relative;
+  border-radius: 4px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .site-tagline {
