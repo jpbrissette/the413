@@ -36,7 +36,10 @@ body {
 /* ── Header ─────────────────────────────────────────── */
 
 header {
-  background: var(--deep-brown);
+  background-color: var(--deep-brown);
+  background-image: url('pastoral_landscape_of_autumn_in_western_massachusetts.png');
+  background-size: cover;
+  background-position: center 40%;
   color: var(--cream);
   padding: 3rem 2rem 2.5rem;
   text-align: center;
@@ -45,16 +48,16 @@ header {
   overflow: hidden;
 }
 
+/* Dark overlay so the logo stays legible over the photo */
 header::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: repeating-linear-gradient(
-    -45deg,
-    transparent,
-    transparent 18px,
-    rgba(200, 137, 10, 0.04) 18px,
-    rgba(200, 137, 10, 0.04) 20px
+  background: linear-gradient(
+    to bottom,
+    rgba(30, 16, 8, 0.68) 0%,
+    rgba(30, 16, 8, 0.55) 60%,
+    rgba(30, 16, 8, 0.72) 100%
   );
   pointer-events: none;
 }
