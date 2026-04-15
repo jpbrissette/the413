@@ -20,6 +20,7 @@
     <a href="#about">About</a>
     <a href="#episodes">Episodes</a>
     <a href="#btc">Berkshire Talking Chronicle</a>
+    <a href="#pipeline">How It's Made</a>
   </nav>
 
   <main>
@@ -39,8 +40,10 @@
         loss, loyalty, and the long echo of letters never sent.
       </p>
       <p>
-        Produced with ElevenLabs AI voice generation and assembled entirely in the
-        Berkshires pipeline. New episodes released as each season is completed.
+        Created in the Berkshires by a human creator with the assistance of creative
+        AI chat tools (Claude, NotebookLM); voiced by ElevenLabs AI voice generation;
+        and produced using xil-pipeline tools with a coding assistant (Claude Code).
+        New episodes released as each season is completed.
       </p>
     </section>
 
@@ -128,6 +131,34 @@
         </ul>
       </div>
 
+    </section>
+
+    <!-- ── How It's Made ─────────────────────────────── -->
+    <section id="pipeline">
+      <p class="section-heading">How It's Made</p>
+      <h2>The Production Pipeline</h2>
+      <p>
+        Every episode of <em>The 413</em> is written by a human, then shaped into
+        broadcast audio using a small open-source toolchain called
+        <strong>xil-pipeline</strong>. It takes a plain-text production script and a
+        cast list and returns a fully mixed, multi-track episode — dialogue, ambience,
+        music, and sound effects assembled automatically from simplified commands.
+      </p>
+      <p>
+        The stack is intentionally minimal: a markdown script goes in, a podcast-ready
+        MP3 comes out. Voice stems are generated via ElevenLabs; sound design assets
+        live in a shared library so nothing gets generated twice. The whole thing runs
+        locally, costs nothing beyond API credits, and leaves the creative decisions
+        entirely with the author.
+      </p>
+      <p>
+        If you produce spoken-word audio and want to spend more time writing and less
+        time inside a DAW, xil-pipeline might be worth a look.
+      </p>
+      <p class="pipeline-link">
+        <a href="https://github.com/xilcmd/xil-pipeline"
+           target="_blank" rel="noopener">xilcmd/xil-pipeline on GitHub &rarr;</a>
+      </p>
     </section>
 
     <!-- ── Berkshire Talking Chronicle ───────────────── -->
