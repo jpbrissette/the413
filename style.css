@@ -222,6 +222,30 @@ h2 {
   flex: 1;
 }
 
+/* ── How It's Made ──────────────────────────────────── */
+
+#pipeline {
+  margin-bottom: 3.5rem;
+}
+
+#pipeline p {
+  font-size: 1.05rem;
+  color: var(--text-mid);
+  margin-bottom: 1rem;
+  max-width: 70ch;
+}
+
+.pipeline-link a {
+  font-size: 0.9rem;
+  color: var(--burnt-orange);
+  text-decoration: none;
+  letter-spacing: 0.04em;
+}
+
+.pipeline-link a:hover {
+  text-decoration: underline;
+}
+
 /* ── Berkshire Talking Chronicle ────────────────────── */
 
 #btc {
